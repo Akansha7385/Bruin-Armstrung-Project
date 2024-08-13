@@ -1,0 +1,367 @@
+* {
+    font-family: "Coming Soon", cursive;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    background-color: rgb(0 82 255);
+}
+body{
+    overflow-x: hidden;
+}
+
+.home {
+    background-image: url(https://briunarmstrung.com/bg.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.home-head {
+    font-size: 6.5vw;
+}
+
+.home-para {
+    font-size: 2.5vw;
+}
+
+.home-text {
+    text-align: left;
+    margin-right: -11rem;
+}
+
+.pannel {
+    height: 40rem;
+    width: 40rem;
+}
+
+.home-btn {
+    background-color: rgb(255 246 142);
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border: 5px solid black;
+    width: 25%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.home-btn:hover,
+.mechanism-btn:hover {
+    scale: 0.5;
+    background-color: rgb(250, 245, 185);
+    transition: 500ms;
+}
+.navbar{
+    position: sticky;
+    top: 3rem;
+    z-index: 1000;
+}
+
+.base {
+    background-color: rgb(0 60 189);
+    border-top: 7px solid black;
+    border-bottom: 7px solid black;
+    position: relative;
+    z-index: 30;
+}
+
+.top {
+    border: 7px solid black;
+    background-color: rgb(0 60 189);
+    margin-right: 4rem;
+    margin-left: 4rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    position: relative;
+    z-index: 50;
+    margin-top: -5rem;
+    border-radius: 12px;
+}
+
+
+.nav-content {
+    list-style: none;
+    gap: 3rem;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.btn-buy {
+    border: 7px solid black;
+    background-color: rgb(255 246 142);
+    color: black;
+    font-size: 1rem;
+    padding: 0.8rem;
+    width: 8rem;
+    border-radius: 0.8rem;
+}
+
+.btn-buy:hover {
+    scale: 0.5;
+    background-color: rgb(250, 245, 185);
+    transition: 500ms;
+    border: 7px solid black;
+    color: black;
+}
+
+.contract-add {
+    border: 7px solid black;
+    border-radius: 0.8rem;
+    border-right: 0;
+    margin-right: 21rem;
+    margin-left: 20rem;
+    margin-top: -01rem;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    background-color: #ffff;
+}
+
+.ca {
+    border-right: 2px solid black;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+.copy-btn {
+    margin-top: -1rem;
+    margin-bottom: -0.4rem;
+    padding: 0 2rem 0 2rem;
+    border: 7px solid black;
+    border-radius: 0 0.8rem 0.8rem 0;
+    background-color: rgb(255 246 142);
+    ;
+}
+
+.buy-text {
+    padding: 8rem 0 2rem 4rem;
+    font-size: 2.8rem;
+}
+
+.outline {
+    border: 7px solid black;
+    border-radius: 1rem;
+    height: 38rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(250, 242, 157);
+    scale: 0.8;
+    transform: skewY(10deg);
+}
+
+.outline:hover {
+   transform: skew(0); 
+   background-color: white;
+   scale: 1;
+
+}
+
+.outline1 {
+    border-bottom: 7px solid black;
+    background-color: rgb(0 60 189);
+    color: #ffff;
+    border-radius: 0.5rem 0.5rem 0 0;
+    text-align: center;
+    padding: 1rem;
+}
+
+.buy-box-img {
+    margin: 2rem;
+}
+
+.about {
+    margin-top: 12rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.head {
+    font-size: 2.5rem;
+}
+
+.pannel2 {
+    height: 35rem;
+    width: 45rem;
+}
+
+.pannel3{
+    height: 60rem;
+    width: 40rem;
+    margin-left: -8rem;
+}
+.mechanism-text{
+    margin-top: 18rem;
+}
+.mechanism-btn{
+    background-color: rgb(255 246 142);
+    border: 7px solid black;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    font-size: 1.2rem;
+}
+.box{
+    border: 7px solid black;
+    border-radius: 12px;
+    margin-right: 18rem;
+    margin-left: 18rem;
+    height: 10.5rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+#join-us{
+    padding-top:6rem ;
+    color: white;
+    font-size: 1.5rem;
+}
+.pannel4{
+    align-self: center;
+    height: 26rem;
+    padding-top: 5rem;
+}
+footer{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: rgb(0 82 255);
+}
+.footer-text{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+}
+.base2{
+    background-color: rgb(0 60 189);
+    border-top: 7px solid black;
+    border-bottom: 7px solid black;
+}
+.top2{
+    border: 7px solid black;
+    background-color: rgb(0 60 189);
+    margin-right: 12rem;
+    margin-left: 12rem;
+    position: relative;
+    z-index: 50;
+    margin-top: -5rem;
+    border-radius: 12px;
+}
+.footer-svg{
+    margin-right: 1rem;
+}
+.mobile-view{
+    display: none;
+}
+@media (max-width:800px) and (min-width:320px){
+    .pannel{
+        height: 320px;
+        width: 310px;
+        margin-top: -6rem;
+        object-fit: cover;
+    }
+    .home-head{
+        font-size: 9vh;
+    }
+    .home-para{
+        font-size: 5vh;
+    }
+    .home-text{
+        font-size: 3rem;
+    }
+    .home-btn{
+        display: none;
+    }
+    .li-items{
+        display: none;
+    }
+    .contract-add{
+        margin-left: 1rem;
+        max-width: 80%;
+        height: 4rem;
+        margin-right: 0rem;
+    }
+    .address{
+        font-size: 12px;
+        word-break: break-all;
+        display: inline-block;
+        padding-right: 5px;
+    }
+    .ca{
+        padding-left: 1rem;
+    }
+    .buy-text{
+        font-size: 2.3rem;
+        padding: 2rem 0 2rem 2rem;
+    }
+    .about{
+        margin-top: 7rem;
+    }
+    .mechanism-text{
+        margin-top: 7rem;
+    }
+    .pannel2{
+        height:300px ;
+        width:308px ;
+        overflow-x: hidden;
+        object-fit: cover;
+
+    }
+    .pannel3{
+        order: 2;
+        margin-left: -1rem;
+        height: 600px;
+        width: 323px;
+        overflow-x: hidden;
+        object-fit: cover;
+        object-position: left;
+
+    }
+    .pannel4{
+        height: auto;
+    }
+    .base2{
+        display: none;
+    }
+    .top{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;;
+        padding-right: 0;
+    }
+    .nav-content{
+        gap: 1rem;
+    }
+    .btn-buy{
+        width: auto;
+    }
+    .box{
+        margin-right: 1rem;
+        margin-left: 1rem;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding: 0.8rem;
+    }
+    .top2{
+        height: 8rem;
+        margin-left: -2px;
+        margin-right: 0;
+        width: 20rem;
+    }
+    footer{
+        padding-top: 7rem;
+    }
+    .footer-text{
+        font-size: 1rem;
+        word-break: break-all;
+    }
+    
+}
